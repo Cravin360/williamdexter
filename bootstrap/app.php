@@ -40,10 +40,6 @@ $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
     App\Exceptions\Handler::class
 );
-
-->withMiddleware(function (Middleware $middleware) {
-    $middleware->trustProxies(at: '*');
-});
 /*
 |--------------------------------------------------------------------------
 | Return The Application
