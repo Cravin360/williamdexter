@@ -1,0 +1,944 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.wysiwyg p {
+    margin-bottom: 1rem;
+}
+
+.wysiwyg ol {
+    list-style: auto;
+    padding-left: 1.5rem;
+}
+
+.max-w-\[600px\] {
+    max-width: 600px;
+}
+
+.translate-y-2x {
+    transform: translateY(200%);
+}
+
+.top-16 {
+    top: 4rem;
+}
+
+.indent-18 {
+    text-indent: -18px;
+    margin-left: 18px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.pl-5 {
+    padding-left: 1.25rem;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.object-left {
+    object-position: left;
+}
+
+@media (min-width: 768px) {
+    .md\:flex {
+        display: flex;
+    }
+
+    .md\:min-w-\[400px\] {
+        min-width: 400px;
+    }
+
+    .md\:text-center {
+        text-align: center;
+    }
+
+    .md\:mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .md\:justify-center {
+        justify-content: center;
+    }
+
+    .md\:inline-block {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:mb-12 {
+        margin-bottom: 3rem;
+    }
+
+    .lg\:text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+
+    .lg\:absolute {
+        position: absolute;
+    }
+
+    .lg\:text-center {
+        text-align: center;
+    }
+
+    .lg\:py-0 {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .lg\:py-32 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .lg\:pb-0 {
+        padding-bottom: 0rem;
+    }
+
+    .lg\:w-\[80\%\] {
+        width: 80%;
+    }
+
+    .lg\:max-w-\[700px\] {
+        max-width: 700px;
+    }
+
+    .lg\:text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+
+    .lg\:text-6xl {
+        font-size: 3.75rem;
+        line-height: 1.1;
+    }
+
+    .lg\:-mt-16 {
+        margin-top: -4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:block {
+        display: block;
+    }
+
+    .xl\:gap-0 {
+        gap: 0;
+    }
+
+    .\!xl\:hidden {
+        display: none !important;
+    }
+}
+
+.comp__exec-team .executive-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 0;
+}
+
+.comp__exec-team .carousel-track-wrapper {
+    overflow: hidden;
+}
+
+.comp__exec-team .carousel-track {
+    display: flex;
+    gap: 2rem;
+    transition: transform 0.4s ease;
+    will-change: transform;
+}
+
+.comp__exec-team .executive-card {
+    flex: 0 0 336px;
+    background: #fff;
+    background-color: #F9FAFB;
+    padding: 32px;
+}
+
+.comp__exec-team .executive-card img {
+    width: calc(100% + 64px);
+    height: 374px;
+    object-position: top;
+    object-fit: cover;
+    background-color: #F9FAFB;
+    margin: -32px -32px 32px;
+    max-width: unset;
+}
+
+.comp__exec-team .linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    color: #0F4153;
+    text-decoration: none;
+    gap: 8px;
+    transition: all 0.2s ease;
+}
+
+.comp__exec-team .linkedin-link:hover,
+.comp__exec-team .linkedin-link:hover svg {
+    color: #0077b5;
+    fill: #0077b5;
+}
+
+.comp__exec-team .executive-card a {
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    .comp__exec-team .arrows-wrap {
+        position: absolute;
+        top: 200px;
+        right: 75px;
+    }
+
+    .comp__exec-team.custom-blocks .arrows-wrap {
+        top: unset;
+        right: 0;
+        margin-top: -50px;
+    }
+
+    .comp__exec-team .image-wrap {
+        width: calc(100% + 64px);
+        margin: -32px -32px 32px;
+        overflow: hidden;
+    }
+
+    .comp__exec-team .image-wrap img {
+        width: 100%;
+        margin: 0;
+        transition: all 0.2s ease;
+    }
+
+    .comp__exec-team .image-wrap:hover img {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 500px) {
+    .comp__exec-team .executive-card {
+        flex: 0 0 200px;
+        padding: 24px;
+    }
+
+    .comp__exec-team .executive-card img {
+        width: calc(100% + 48px);
+        height: 220px !important;
+        margin: -24px -24px 24px;
+    }
+}
+
+.service-page-faqs .faq-block {
+    padding-top: 0;
+}
+
+.service-page-faqs .faq-block>div {
+    padding: 0;
+}
+
+.service-page-faqs .faq-block .text-center {
+    text-align: left;
+}
+
+.service-page-faqs .faq-block .text-nexa-blue {
+    color: #111827;
+}
+
+.service-page-faqs .faq-block .p-6 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 767px) {
+    .media-with-content .text-is-left {
+        order: 1;
+    }
+}
+
+.comp__brochure-form .image-wrap {
+    background-image: url(https://nexa.careers/wp-content/uploads/sites/2/2025/05/brochure_background_mobile.webp);
+}
+
+@media (min-width: 1024px) {
+    .comp__brochure-form .image-wrap {
+        background-image: none;
+        order: 1;
+    }
+
+    .comp__brochure-form {
+        background-image: url(https://nexa.careers/wp-content/uploads/sites/2/2025/05/brochure_background_desktop.webp);
+    }
+
+    .comp__brochure-form iframe {
+        width: calc(100% + 100px) !important;
+        margin-left: -40px;
+    }
+}
+
+@media (min-width: 1130px) {
+    .comp__brochure-form iframe {
+        margin-left: -60px;
+    }
+}
+
+.comp__law-firms img {
+    max-width: 100px;
+}
+
+@media (min-width: 1024px) {
+    .comp__law-firms img {
+        max-width: 150px;
+        margin-right: 1rem;
+    }
+}
+
+/* 'For Law Firms' page  */
+.page-id-387 .faq-block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.page-id-387 h1,
+.page-id-387 h2,
+.page-id-387 h3 {
+    font-weight: 400;
+}
+
+.page-id-387 .text-nexa-blue {
+    color: #000000;
+}
+
+
+/* Whats Included page  */
+.page-id-398 h1,
+.page-id-398 h2,
+.page-id-398 h3 {
+    font-weight: 400;
+}
+
+.page-id-398 .faq-block {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.page-id-398 .faq-block .text-nexa-blue {
+    color: #000000;
+}
+
+.page-id-398 .media-with-content,
+.page-id-387 .media-with-content,
+.media-with-content.blue-background {
+    background-color: #0c4b5d;
+}
+
+.page-id-398 .media-with-content img,
+.page-id-387 .media-with-content img {
+    max-width: 500px;
+    margin: 0 auto 0;
+}
+
+.media-with-content.blue-background .order-first img {
+    max-width: 500px;
+    margin: auto;
+    margin-top: -80px;
+}
+
+.media-with-content.blue-background .order-last {
+    padding-bottom: 4rem;
+}
+
+.page-id-398 .media-with-content img.wp-image-430,
+.page-id-387 .media-with-content img.wp-image-430,
+.media-with-content.blue-background img.wp-image-430 {
+    max-width: 200px;
+}
+
+.page-id-398 .media-with-content h2,
+.page-id-398 .media-with-content p,
+.page-id-387 .media-with-content h2,
+.page-id-387 .media-with-content p,
+.media-with-content.blue-background h2,
+.media-with-content.blue-background p {
+    color: #fff;
+}
+
+.page-id-398 .media-with-content .grid,
+.page-id-387 .media-with-content .grid,
+.media-with-content.blue-background .grid {
+    padding-bottom: 0;
+    padding-top: 3rem;
+}
+
+@media (max-width: 1024px) {
+
+    .page-id-398 .media-with-content .order-first,
+    .page-id-387 .media-with-content .order-first {
+        order: 1;
+    }
+
+    .page-id-398 .media-with-content .order-last,
+    .page-id-387 .media-with-content .order-last {
+        order: 0;
+    }
+
+    .page-id-398 .media-with-content .grid,
+    .page-id-387 .media-with-content .grid,
+    .media-with-content.blue-background .grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .page-id-398 .media-with-content a.flex,
+    .page-id-387 .media-with-content a.flex,
+    .media-with-content.blue-background a.flex {
+        margin-bottom: 3rem;
+    }
+
+    .page-id-398 .media-with-content .order-first,
+    .page-id-387 .media-with-content .order-first {
+        height: 100%;
+        display: flex;
+        align-items: self-end;
+    }
+
+    .media-with-content.blue-background .order-first img {
+        margin-left: 0;
+    }
+
+    .media-with-content.blue-background .order-last {
+        padding-bottom: 0;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .page-id-398 .hero .lg\:-mb-\[100px\] {
+        margin-bottom: 3rem;
+    }
+
+    .media-with-content.blue-background .order-last {
+        transform: translateX(-50px);
+    }
+}
+
+@media (min-width: 1400px) {
+    .media-with-content.blue-background .order-last {
+        transform: translateX(-100px);
+    }
+}
+
+@media (min-width: 1580px) {
+    .media-with-content.blue-background .order-last {
+        transform: translateX(-180px);
+    }
+}
+
+header {
+    height: 7rem;
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 3.125rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-normal-mobile-padding {
+        padding-top: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-normal-mobile-padding {
+        padding-top: 12rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-normal-mobile-vertical-padding {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-normal-mobile-vertical-padding {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .button-full-mobile {
+        width: 100%;
+    }
+}
+
+.nexa-scheduler-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nexa-scheduler-mobile {
+    display: block;
+}
+
+.nexa-scheduler-desktop {
+    display: none;
+}
+
+/* Buttons */
+.buttons-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.nexa-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    max-width: 240px;
+    font-size: 1.125rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease;
+}
+
+.nexa-button.blue {
+    background-color: #0c4b5d;
+    color: white;
+}
+
+.nexa-button.light-blue {
+    background-color: #d2e9f4;
+    color: #000;
+}
+
+.topics-list {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+}
+
+.topics-list li {
+    margin-top: 0.5rem;
+    padding-left: 1.25rem;
+    position: relative;
+}
+
+.topics-list li::before {
+    content: "›";
+    color: #0c4b5d;
+    position: absolute;
+    left: 0;
+}
+
+/* Desktop layout */
+@media (min-width: 1024px) {
+    .nexa-scheduler-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .nexa-scheduler-mobile {
+        width: 60%;
+    }
+
+    .nexa-scheduler-desktop {
+        display: block;
+        width: 40%;
+    }
+
+    .booking-iframe-mobile {
+        display: none;
+    }
+
+    .buttons-row {
+        flex-direction: row;
+    }
+
+    .nexa-button {
+        width: 12rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:block {
+        display: block !important;
+    }
+
+    .lg\:hidden {
+        display: none !important;
+    }
+}
+
+.mb-\[-160px\] {
+    margin-bottom: -160px;
+}
+
+.booking-subtitle {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+@media (min-width: 1024px) {
+    .booking-subtitle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #CybotCookiebotDialog {
+        max-height: calc(100% - 100px) !important;
+        margin-top: -40px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:grid {
+        display: grid;
+    }
+}
+
+.lawyer-hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+    .lawyer-hero {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+}
+
+.lawyer-title {
+    padding-top: 0rem;
+}
+
+@media (min-width: 1024px) {
+    .lawyer-title {
+        padding-top: 4rem;
+    }
+}
+
+.lawyer-breadcrumbs {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .lawyer-breadcrumbs {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .lawyer-contact-details {
+        background-color: transparent;
+        padding: 1rem 0;
+    }
+
+    .lawyer-contact-details-title {
+        text-align: center;
+    }
+}
+
+.lawyer-button-desktop {
+    display: inline-block;
+}
+
+.lawyer-button-mobile {
+    display: none;
+}
+
+.lawyer-button-icon-mobile svg {
+    margin-right: 0.5rem !important;
+}
+
+@media (max-width: 767px) {
+    .lawyer-button-desktop {
+        display: none;
+    }
+
+    .lawyer-button-mobile {
+        display: flex;
+        width: 100%;
+    }
+
+    .lawyer-button-icon-desktop {
+        display: none;
+    }
+}
+
+.hero-small {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .hero-small {
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+        gap: 5rem;
+    }
+}
+
+.service-list-filter {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .service-list-filter {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+#lawyer-filter {}
+
+#lawyer-filter-copy {
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+    #lawyer-filter,
+    .lawyer-filter {
+        display: none;
+    }
+
+    #lawyer-filter-copy {
+        display: flex;
+    }
+}
+
+.hover-arrow>svg {
+    transition: all 0.3s ease;
+}
+
+.hover-arrow:hover>svg {
+    transform: translateX(10px);
+}
+
+.featured-links-main-link-block {
+    margin: 0 -2.5rem 0 -2.5rem;
+    padding: 6rem 2.5rem 12rem;
+    background-image: url(../../../../uploads/2025/07/get_in_touch_background_desktop_crosses.webp);
+    background-repeat: repeat-x;
+    background-color: #0C4A5C;
+    background-size: 600px;
+    background-position: bottom;
+    position: relative;
+}
+
+.featured-links-main-link-block .nexa-floating-icon {
+    position: absolute;
+    width: 150px;
+    right: 15px;
+    bottom: 0;
+}
+
+@media (min-width: 1024px) {
+    .featured-links-main-link-block {
+        margin: 0;
+        padding: 6rem;
+        background-size: 800px;
+    }
+
+    .featured-links-main-link-block:before {
+        content: '';
+        position: absolute;
+        background-color: #0C4A5C;
+        background-image: url(../../../../uploads/2025/07/get_in_touch_background_desktop_crosses.webp);
+        background-repeat: no-repeat;
+        background-size: 800px;
+        background-position: bottom;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: -100%;
+    }
+
+    .featured-links-main-link-block .nexa-floating-icon {
+        width: 222px;
+        right: -3px;
+    }
+}
+
+.lawyer-testimonials .swiper-wrapper {
+    align-items: center;
+}
+
+.lawyer-testimonials .swiper-button-next,
+.lawyer-testimonials .swiper-button-prev {
+    top: unset;
+    bottom: -3px;
+}
+
+.lawyer-testimonials .swiper-button-next:after,
+.lawyer-testimonials .swiper-button-prev:after {
+    font-size: 20px;
+}
+
+.lawyer-testimonials .swiper-button-prev {
+    right: unset;
+    left: 50%;
+    transform: translateX(calc(-50% - 60px));
+}
+
+.lawyer-testimonials .swiper-button-next {
+    left: unset;
+    right: 50%;
+    transform: translateX(calc(-50% + 60px));
+}
+
+.lawyer-testimonials .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    padding-right: 24px;
+}
+
+@media (min-width: 1024px) {
+
+    .lawyer-testimonials .swiper-button-next,
+    .lawyer-testimonials .swiper-button-prev {
+        top: 50%;
+        bottom: unset;
+    }
+
+    .lawyer-testimonials .swiper-button-next:after,
+    .lawyer-testimonials .swiper-button-prev:after {
+        font-size: 40px;
+    }
+
+    .lawyer-testimonials .swiper-button-prev {
+        left: 50px;
+        transform: none;
+    }
+
+    .lawyer-testimonials .swiper-button-next {
+        right: 50px;
+        transform: none;
+    }
+
+    .lawyer-testimonials .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        padding-right: 54px;
+    }
+}
+
+@media (max-width: 500px) {
+    .review-carousel .review-carousel-content {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    body #rswidget_MPmSc .rsbo--bottom-left .rsbo__widget {
+        left: unset !important;
+        right: 1rem;
+        bottom: 0.5rem !important;
+        z-index: 1 !important;
+    }
+}
+
+#faq-section {
+    scroll-margin-top: 100px;
+}
+
+
+@media (min-width: 1516px) {
+    .reviewsolicitors-wrap {
+        overflow: hidden;
+        /* margin-left: -272px; */
+    }
+
+    .reviewsolicitors-wrap iframe.embedded-widget {
+        width: 1000px !important;
+        max-width: none;
+    }
+}
+
+.featured-links.bg-nexa-blue,
+.featured-links.bg-nexa-blue .grid .flex {
+    color: #fff;
+}
+
+
+.support-team-block h3 {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #E6E7EB;
+    margin-bottom: 2rem;
+}
+
+.support-team-block .support-team-block__bullets {
+    padding-left: 2rem;
+}
+
+.support-team-block .support-team-block__bullets li:before {
+    content: '';
+    height: 8px;
+    width: 16px;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    transform: rotate(318deg);
+    position: absolute;
+    left: -2rem;
+    top: 8px;
+}
+
+.support-team-block__team-leaders a:hover svg>* {
+    fill: #D0ECEF;
+}
+
+.support-team-block__support-team a:hover svg>* {
+    stroke: #D0ECEF;
+}
+
+@media (min-width: 1280px) {
+    .support-team-block-desktop-image {
+        display: block;
+        position: absolute;
+        width: 250px;
+    }
+
+    .support-team-block__content {
+        padding-left: 300px;
+        padding-right: 32px;
+        border-right: 2px solid #F4F5F6;
+        height: 100%;
+    }
+}
+
+.lawyer-template-default.single-lawyer .lawyer-hero {
+    padding-top: 10rem;
+}
+
+@media (min-width: 767px) {
+    .lawyer-template-default.single-lawyer .lawyer-hero {
+        padding-top: 14rem;
+    }
+}
